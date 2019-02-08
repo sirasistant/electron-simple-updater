@@ -1,7 +1,7 @@
 {
   "name": "simple-updater-example",
   "productName": "Simple Updater Example",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Example of using electron-simple-updater",
   "main": "app/main.js",
   "scripts": {
@@ -34,18 +34,18 @@
       "target": "squirrel"
     },
     "squirrelWindows": {
-      "iconUrl": "https://raw.githubusercontent.com/megahertz/electron-simple-updater/master/example/build/icon.ico"
+      "iconUrl": "https://raw.githubusercontent.com/sirasistant/electron-simple-updater/master/example/build/icon.ico"
     }
   },
   "updater": {
-    "url": "https://raw.githubusercontent.com/megahertz/electron-simple-updater/master/example/updates.json"
+    "url": "https://raw.githubusercontent.com/sirasistant/electron-simple-updater/master/example/updates.json"
   },
   "engines": {
     "node": ">=6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megahertz/electron-simple-updater.git"
+    "url": "git+https://github.com/sirasistant/electron-simple-updater"
   },
   "dependencies": {
     "electron-simple-updater": "^1.2.0"
